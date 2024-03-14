@@ -20,9 +20,9 @@ console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my 
 }
 
 const person = new Person("Alice,25");
-Person.greet();
+person.greet();
 const employee = new Employee("Bob",30,"Manager");
-Employee.jobGreet()
+employee.jobGreet()
 // function Person(name, age) {
 	
 // }
