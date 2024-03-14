@@ -8,7 +8,7 @@ class Person {
         console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`);
     }
 }
-
+  greet()
 // Define the Employee class that inherits from Person
 class Employee extends Person {
     constructor(name, age, jobTitle) {
@@ -20,12 +20,7 @@ class Employee extends Person {
         console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`);
     }
 }
-
-const alice = new Person("Alice",25);
-alice.greet();
-const bob = new Employee("Bob",30,"Manager");
-bob.jobGreet();
-
+jobGreet()
 // function Person(name, age) {
 	
 // }
