@@ -6,7 +6,7 @@ function Person(name, age) {
 		console.log("Hello, my name is"+this.name+ ",I am "+this.age+"years old.")
 	}
 }
-
+greet()
 function Employee(name, age, jobTitle) {
 	super(name,age);
 	this.jobTitle=jobTitle;
@@ -14,7 +14,7 @@ function Employee(name, age, jobTitle) {
 		console.log("Hello, my name is"+this.name+ ",I am "+this.age+"years old,and my job title is"+this.jobTitle+);
 	}
 }
-
+jobGreet()
 
 // Do not change code below this line
 window.Person = Person;
